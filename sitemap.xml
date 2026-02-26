@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- Halaman Utama (Index) -->
+    <url>
+        <loc>https://skejasampaintball.com/</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(100).JPG</image:loc>
+            <image:title>Skejasam Paintball &amp; Outbound Arena Utama</image:title>
+            <image:caption>Tingkatkan kekompakan tim Anda dengan pengalaman paintball seru.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Halaman Artikel Blog 1 -->
+    <url>
+        <loc>https://skejasampaintball.com/blog-1.html</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(102).JPG</image:loc>
+            <image:title>Strategi Paintball Terbaik</image:title>
+        </image:image>
+    </url>
+
+    <!-- Halaman Artikel Blog 2 -->
+    <url>
+        <loc>https://skejasampaintball.com/blog-2.html</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(13).JPG</image:loc>
+            <image:title>Manfaat Utama Outbound Bagi Perusahaan</image:title>
+        </image:image>
+    </url>
+
+    <!-- Halaman Artikel Blog 3 -->
+    <url>
+        <loc>https://skejasampaintball.com/blog-3.html</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(15).JPG</image:loc>
+            <image:title>Panduan Wajib Perlengkapan Paintball</image:title>
+        </image:image>
+    </url>
+
+    <!-- Halaman Artikel Blog 4 -->
+    <url>
+        <loc>https://skejasampaintball.com/blog-4.html</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(20).JPG</image:loc>
+            <image:title>Perbedaan Paintball dan Airsoft Gun</image:title>
+        </image:image>
+    </url>
+
+    <!-- Halaman Artikel Blog 5 -->
+    <url>
+        <loc>https://skejasampaintball.com/blog-5.html</loc>
+        <lastmod>2026-02-27T01:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://skejasampaintball.com/Paket%20Outbound%20Batu%20Malang%20(21).JPG</image:loc>
+            <image:title>Cara Menghindari Cedera Paintball</image:title>
+        </image:image>
+    </url>
+</urlset>

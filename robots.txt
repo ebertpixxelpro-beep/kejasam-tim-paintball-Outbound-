@@ -1,0 +1,73 @@
+# =========================================================================
+# robots.txt untuk Situs Web: Skejasam Paintball & Outbound
+# URL Utama: https://skejasampaintball.com/
+# =========================================================================
+# File ini digunakan untuk memberikan instruksi kepada mesin telusur 
+# (Googlebot, Bingbot, dll) halaman mana yang boleh dan tidak boleh 
+# dirayapi (crawling) dalam mendongkrak peringkat SEO situs web Anda.
+# =========================================================================
+
+# Mengizinkan semua robot mesin telusur utama merayapi situs secara bebas.
+User-agent: *
+
+# HALAMAN YANG DILARANG UNTUK DIRAYAPI (DISALLOW)
+# -------------------------------------------------------------------------
+# Mencegah duplikasi konten atau halaman yang tidak relevan dengan SEO public.
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /assets/private/
+Disallow: /*?search=*
+Disallow: /*?replytocom=*
+Disallow: /keranjang/
+Disallow: /checkout/
+
+# HALAMAN YANG DIIZINKAN UNTUK DIRAYAPI (ALLOW)
+# -------------------------------------------------------------------------
+# Memastikan penelusuran bot berfokus pada halaman bermutu tinggi (Blog & Beranda).
+Allow: /
+Allow: /index.html
+Allow: /blog-1.html
+Allow: /blog-2.html
+Allow: /blog-3.html
+Allow: /blog-4.html
+Allow: /blog-5.html
+Allow: /style.css
+Allow: /script.js
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# PERATURAN GOOGLE BOT KHUSUS
+# -------------------------------------------------------------------------
+# Mengoptimalkan perayapan Google untuk gambar (SEO Gambar di Google Images).
+User-agent: Googlebot-Image
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+
+User-agent: Googlebot
+Allow: /
+
+# MENCEGAH BOT YANG MEMBAHAYAKAN ATAU SPAM
+# -------------------------------------------------------------------------
+User-agent: Baiduspider
+Disallow: /
+User-agent: YandexBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+
+# LOKASI SITEMAP XML
+# -------------------------------------------------------------------------
+# Memberi tahu mesin telusur lokasi peta situs (sitemap) sehingga dapat 
+# mengotomatisasi pengindeksan lebih cepat untuk semua URL yang tersedia.
+Sitemap: https://skejasampaintball.com/sitemap.xml
